@@ -54,3 +54,45 @@ contentClass|`class`、`id`或`标签`名称|.contentEasy-class|指定contentEas
 windowClass|`class`、`id`或`标签`名称|.contentEasy-window|指定contentEasy默认的窗体
 
 # English version
+
+Please note: Before using ContentEasy, you must first reference `JQuery`:
+
+```
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+```
+
+Download the contents of **JS** and **CSS** separately and refer to it on your page (use CDN here, you can change to your own local directory):
+
+```
+<link rel="stylesheet" href="https://www.stackoverflow.wiki/User/contentEasy/css/contentEasy.min.css" />
+<script type="text/javascript" src=“https://www.stackoverflow.wiki/User/contentEasy/js/contentEasy.min.js"></script>
+```
+
+Next, write the following content anywhere on the site (recommended to reference JS, CSS, and the following code at the bottom of the page </body>):
+
+```
+<script>
+    Window.onload = function () {
+        contentEasy({
+            "range": ".innerTexts",
+            "autoHide" : "true"
+        });
+    };
+</script>
+<div class="contentEasy-window">
+    <ul class="contentEasy-class"></ul>
+</div>
+```
+
+Since contentEasy is floating on the right side of the page, you can paste the code anywhere.
+
+When you open the page, your web page should automatically create a directory for the h1-h6 tag and display it on the right side of the page.
+
+contentEasy also presets several parameters that can be added or modified in the `<script>` tag:
+
+Parameter name|parameter|default value|action
+-|-|-|-
+Range|`class`, `id` or `tag` name|empty|will be used to scan the h1-h6 tag in the `class`, `id` or `tag` to create a directory. If it is empty, scan the entire page. Usage: `.class` / `#id` / `tag`
+Autohide|true or false|false| is set to true, the directory is not displayed when the page is loaded, and is displayed after scrolling down once.
+contentClass|`class`, `id` or `tag` name|.contentEasy-class|specify the contentEasy default append directory display DIV
+windowClass|`class`, `id` or `tag` name|.contentEasy-window|specify contentEasy default form
