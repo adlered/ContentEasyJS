@@ -11,6 +11,12 @@
 
 # Chinese version
 
+请注意：在使用ContentEasy之前，必须先引用`JQuery`：
+
+```
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+```
+
 分别下载**JS**与**CSS**中的内容，在你的页面中引用（这里使用CDN，你可以改为自己的本地目录）：
 
 ```
