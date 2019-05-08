@@ -1,0 +1,83 @@
+/*
+ContentEasy V1.0.0
+https://github.com/AdlerED/ContentEasyJS
+ */
+
+.contentEasy-window {
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    width: 200px;
+    height: 60%;
+    overflow-y: auto;
+}
+
+.contentEasy-class li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contentEasy-class li:before {
+    position: relative;
+    top: -2px;
+    left: -4px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    content: '';
+    border-radius: 50%;
+    background-color: #eb5055;
+}
+
+.contentEasy-class li a {
+    color: #313131;
+    text-decoration: none;
+    outline: 0;
+    transition: all .3s;
+}
+
+.contentEasy-class li a:visited {
+    text-decoration: none;
+}
+
+.contentEasy-class li a:hover {
+    color: #ba2636;
+}
+
+.contentEasy-class li a:active {
+    color: #ba2636;
+}
+
+.contentEasy-class-h1 {
+    margin-left: 4px !important;
+}
+
+.contentEasy-class-h2 {
+    margin-left: 16px !important;
+}
+
+.contentEasy-class-h3 {
+    margin-left: 32px !important;
+}
+
+.contentEasy-class-h4 {
+    margin-left: 48px !important;
+}
+
+.contentEasy-class-h5 {
+    margin-left: 80px !important;
+}
+
+.contentEasy-class-h6 {
+    margin-left: 96px !important;
+}
+
+@media screen and (max-width: 960px) {
+    .contentEasy-window {
+        display: none !important;
+    }
+}
