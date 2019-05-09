@@ -21,7 +21,7 @@
 
 ```
 <link rel="stylesheet" href="https://www.stackoverflow.wiki/User/contentEasy/css/contentEasy.min.css" />
-<script type="text/javascript" src=“https://www.stackoverflow.wiki/User/contentEasy/js/contentEasy.min.js"></script>
+<script type="text/javascript" src="https://www.stackoverflow.wiki/User/contentEasy/js/contentEasy.min.js"></script>
 ```
 
 紧接着，在网站中任意位置（建议将引用JS、CSS和以下代码都放在页面底部</body>上方）写入下方内容：
@@ -30,7 +30,7 @@
 <script>
     window.onload = function () {
         contentEasy({
-            "range": ".innerTexts",
+            "range": "",
             "autoHide" : "true"
         });
     };
@@ -65,7 +65,7 @@ Download the contents of **JS** and **CSS** separately and refer to it on your p
 
 ```
 <link rel="stylesheet" href="https://www.stackoverflow.wiki/User/contentEasy/css/contentEasy.min.css" />
-<script type="text/javascript" src=“https://www.stackoverflow.wiki/User/contentEasy/js/contentEasy.min.js"></script>
+<script type="text/javascript" src="https://www.stackoverflow.wiki/User/contentEasy/js/contentEasy.min.js"></script>
 ```
 
 Next, write the following content anywhere on the site (recommended to reference JS, CSS, and the following code at the bottom of the page </body>):
@@ -74,7 +74,7 @@ Next, write the following content anywhere on the site (recommended to reference
 <script>
     Window.onload = function () {
         contentEasy({
-            "range": ".innerTexts",
+            "range": "",
             "autoHide" : "true"
         });
     };
