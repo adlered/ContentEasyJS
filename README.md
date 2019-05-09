@@ -90,7 +90,7 @@ When you open the page, your web page should automatically create a directory fo
 
 contentEasy also presets several parameters that can be added or modified in the `<script>` tag:
 
-Parameter name|parameter|default value|action
+Parameter name|Parameter|Default value|Action
 -|-|-|-
 Range|`class`, `id` or `tag` name|empty|will be used to scan the h1-h6 tag in the `class`, `id` or `tag` to create a directory. If it is empty, scan the entire page. Usage: `.class` / `#id` / `tag`
 Autohide|true or false|false| is set to true, the directory is not displayed when the page is loaded, and is displayed after scrolling down once.
