@@ -11,6 +11,7 @@ https://github.com/AdlerED/ContentEasyJS
     width: 200px;
     height: 60%;
     overflow-y: auto;
+    pointer-events: none;
 }
 
 .contentEasy-class li {
@@ -19,6 +20,7 @@ https://github.com/AdlerED/ContentEasyJS
     margin: 0;
     font-size: 14px;
     line-height: 24px;
+    pointer-events: all;
 }
 
 .contentEasy-class li:before {
